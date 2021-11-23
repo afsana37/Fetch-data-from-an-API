@@ -1,3 +1,8 @@
+# API data fetch in React
+
+In this project I have fetched the data of players on Machester United from an API using Fetch function then displayed them in the front-end by manipulating these data
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
