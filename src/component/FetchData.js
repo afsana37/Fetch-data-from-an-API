@@ -19,6 +19,7 @@ export default class FetchData extends React.Component {
 
         this.setState({player: memberList, loading: false})
     } 
+
     render(){
        if(this.state.loading) {
            return <div> Loading...</div>
@@ -41,11 +42,8 @@ export default class FetchData extends React.Component {
                             <b>Country:</b> {item.country} <br />
                         </div>
                     )
-
-
                 })}
             </div>
         )
-
     }
 }
